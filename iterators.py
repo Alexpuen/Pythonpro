@@ -36,7 +36,7 @@ class FiboIter():
 
 def run():
     fibonacci = FiboIter(20)
-    i= 1
+    i= 0
     for element in fibonacci:
         print(str(i)+ " Vueltas")
         print(element)
